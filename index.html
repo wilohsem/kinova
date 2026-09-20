@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KINOVA | Cumbres de Innovación Sostenible</title>
+<style>
+:root{--navy:#073d70;--blue:#0b4c82;--green:#76e52b;--text:#153f70;--light:#f7fafc}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:#fff}
+a{text-decoration:none;color:inherit}.container{width:min(1180px,92%);margin:auto}
+header{height:82px;background:#fff;display:flex;align-items:center;position:sticky;top:0;z-index:50;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+.nav{display:flex;align-items:center;justify-content:space-between}.logo-up{width:205px;height:auto;display:block}
+.menu{display:flex;align-items:center;gap:30px;font-size:15px}.menu a{transition:.2s}.menu a:hover{color:#52bb22}
+.cta{background:var(--navy);color:#fff!important;padding:13px 24px;border-radius:12px}
+.hero{min-height:560px;background-image:linear-gradient(90deg,rgba(3,35,65,.72),rgba(3,35,65,.08)),url("assets/hero-mineria.jpg");background-position:center;background-size:cover;display:flex;align-items:center;color:#fff}
+.hero h1{font-size:54px;line-height:1.02;margin:0;text-transform:uppercase}.hero h1 span{color:var(--green)}
+.greenline{width:68px;height:5px;background:var(--green);margin:18px 0 24px}
+.hero p{font-size:20px;line-height:1.45;max-width:610px}.btn{display:inline-block;background:var(--green);color:#073d70;padding:15px 28px;border-radius:28px;font-weight:700;margin-top:10px}
+.sol{padding:55px 0 50px}.section-title{font-size:35px;margin:0 0 10px}.intro{font-size:17px;margin:0}
+.solutions{display:grid;grid-template-columns:repeat(7,1fr);margin-top:38px}
+.solution{text-align:center;padding:10px 14px;border-right:1px solid #dce4eb}.solution:last-child{border:0}
+.icon{font-size:43px;color:#189d24;margin-bottom:12px}.solution h3{font-size:16px;line-height:1.2;margin:0 0 12px}.solution p{font-size:14px;line-height:1.4;color:#68788c;margin:0}
+.data{min-height:400px;background-image:linear-gradient(90deg,rgba(0,53,98,.90),rgba(0,53,98,.12)),url("assets/mineria-lidar.jpg");background-position:center;background-size:cover;color:#fff;display:flex;align-items:center}
+.data h2{font-size:40px;line-height:1.08;margin:0}.data p{font-size:17px;line-height:1.5;max-width:450px}.outline{display:inline-block;border:2px solid #fff;color:#fff;border-radius:25px;padding:12px 25px;font-weight:700}
+.future{padding:52px 0;background:#fff}.future-row{display:flex;align-items:center;justify-content:space-between;gap:40px}.future h2{font-size:31px;line-height:1.1;margin:0}.future p{max-width:520px;line-height:1.5}
+.alliance{padding:45px 0;background:#f8fafc;border-top:1px solid #e7edf3}.alliance-row{display:flex;align-items:center;gap:42px}.alliance h2{font-size:27px;line-height:1.15;max-width:240px}.partner{width:270px;height:92px;object-fit:contain}.divider{width:1px;height:85px;background:#cbd5df}.alliance p{max-width:300px;line-height:1.5}
+footer{background:#034271;color:#fff}.footer-main{padding:38px 0;display:flex;align-items:center;justify-content:space-between;gap:28px}.logo-down{width:220px;height:auto;display:block}
+.footer-menu{display:flex;gap:22px;font-size:14px}.social{display:flex;gap:10px}.social a{width:34px;height:34px;border:1px solid #fff;border-radius:50%;display:grid;place-items:center}
+.bottom{background:#063456;padding:20px 4%;display:flex;justify-content:space-between;color:#b9cad8;font-size:13px}
+@media(max-width:1000px){.menu{gap:14px;font-size:13px}.solutions{grid-template-columns:repeat(4,1fr)}.solution:nth-child(4n){border-right:0}.alliance-row{flex-wrap:wrap}}
+@media(max-width:700px){header{height:auto;padding:13px 0}.nav{flex-wrap:wrap;gap:12px}.logo-up{width:160px}.menu{order:3;width:100%;justify-content:center;flex-wrap:wrap}.hero{min-height:520px}.hero h1{font-size:38px}.hero p{font-size:17px}.solutions{grid-template-columns:1fr 1fr}.solution:nth-child(4n){border-right:1px solid #dce4eb}.solution:nth-child(2n){border-right:0}.future-row,.alliance-row,.footer-main{flex-direction:column;align-items:flex-start}.data h2{font-size:32px}.footer-menu{flex-wrap:wrap}.bottom{flex-direction:column;gap:8px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <a href="#inicio"><img class="logo-up" src="assets/kinova-up.png" alt="KINOVA"></a>
+    <nav class="menu" aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#empresa">Empresa</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#tecnologia">Tecnología</a>
+      <a href="#alianzas">Alianzas</a>
+      <a href="#contacto">Contacto</a>
+      <a class="cta" href="#contacto">Contáctanos&nbsp; →</a>
+    </nav>
+  </div>
+</header>
+
+<section id="inicio" class="hero">
+  <div class="container">
+    <h1>TECNOLOGÍA<br>QUE MIDE<br><span>GRANDES DESAFÍOS</span></h1>
+    <div class="greenline"></div>
+    <p>Soluciones de ingeniería, levantamientos topográficos y modelación 3D para impulsar la eficiencia, seguridad y sostenibilidad de tus proyectos.</p>
+    <a class="btn" href="#servicios">Conoce nuestras soluciones&nbsp; →</a>
+  </div>
+</section>
+
+<section id="servicios" class="sol">
+  <div class="container">
+    <h2 class="section-title">Nuestras Soluciones</h2>
+    <div class="greenline"></div>
+    <p class="intro">Integramos tecnología de punta y experiencia técnica para entregar soluciones confiables, seguras y eficientes.</p>
+    <div class="solutions">
+      <div class="solution"><div class="icon">⌖</div><h3>Levantamientos<br>topográficos LiDAR</h3><p>Alta precisión y detalle 3D</p></div>
+      <div class="solution"><div class="icon">▥</div><h3>As-Built</h3><p>Modelos y planos según realidad</p></div>
+      <div class="solution"><div class="icon">◇</div><h3>BIM</h3><p>Modelado de información</p></div>
+      <div class="solution"><div class="icon">⚙</div><h3>Ingeniería<br>eléctrica e industrial</h3><p>Soluciones para proyectos de alta complejidad</p></div>
+      <div class="solution"><div class="icon">⌁</div><h3>Minería y túneles</h3><p>Mapeo, volúmenes y control de deformaciones</p></div>
+      <div class="solution"><div class="icon">▥</div><h3>Plantas industriales</h3><p>Modelación y documentación técnica</p></div>
+      <div class="solution"><div class="icon">◎</div><h3>Monitoreo y control</h3><p>Deformaciones, verticalidad y activos críticos</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="empresa" class="data">
+  <div class="container">
+    <h2>Transformamos<br>datos en decisiones</h2>
+    <div class="greenline"></div>
+    <p>Aplicamos tecnología LiDAR, inteligencia artificial y modelación 3D para optimizar la planificación, reducir riesgos y generar valor en entornos de alta exigencia como minería, energía, industria y construcción.</p>
+    <a class="outline" href="#empresa">Nuestra Empresa&nbsp; →</a>
+  </div>
+</section>
+
+<section id="tecnologia" class="future">
+  <div class="container future-row">
+    <div><h2>Impulsamos un futuro<br>más sostenible</h2><div class="greenline"></div></div>
+    <p>En Kinova creemos en la innovación como motor de desarrollo, contribuyendo a una industria más segura, eficiente y responsable con el medio ambiente.</p>
+    <a class="btn" href="#contacto">Conversemos tu proyecto&nbsp; →</a>
+  </div>
+</section>
+
+<section id="alianzas" class="alliance">
+  <div class="container alliance-row">
+    <h2>Alianzas estratégicas<br>para un mayor valor</h2>
+    <a href="https://stellen.cl" target="_blank" rel="noopener">
+      <img class="partner" src="assets/stellen.png" alt="Stellen">
+    </a>
+    <div class="divider"></div>
+    <a href="https://globaldrxne.com/" target="_blank" rel="noopener">
+      <img class="partner" src="assets/globaldrxne.png" alt="Global Drxne">
+    </a>
+    <p>Junto a Stellen y Global Drxne, combinamos experiencia, tecnología y alcance internacional para entregar soluciones de clase mundial en Chile y la región.</p>
+  </div>
+</section>
+
+<footer id="contacto">
+  <div class="container footer-main">
+    <img class="logo-down" src="assets/kinova-down.png" alt="KINOVA">
+    <nav class="footer-menu">
+      <a href="#inicio">Inicio</a><a href="#empresa">Empresa</a><a href="#servicios">Servicios</a>
+      <a href="#tecnologia">Tecnología</a><a href="#alianzas">Alianzas</a><a href="#contacto">Contacto</a>
+    </nav>
+    <div class="social">
+      <a href="#" aria-label="LinkedIn">in</a>
+      <a href="#" aria-label="YouTube">▶</a>
+      <a href="mailto:ventas@kinova.cl" aria-label="Correo">✉</a>
+    </div>
+    <div>Antofagasta, Chile<br><strong>+56 9 8350 8427</strong><br>ventas@kinova.cl</div>
+  </div>
+  <div class="bottom"><span>© 2025 Kinova. Todos los derechos reservados.</span><span>Innovación hoy, un mejor mañana.</span></div>
+</footer>
+
+</body>
+</html>
